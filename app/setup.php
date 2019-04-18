@@ -11,6 +11,7 @@ use Roots\Sage\Template\BladeProvider;
  * Theme assets
  */
 add_action('wp_enqueue_scripts',
+
 function () {
 		wp_enqueue_style('sage/main.css', asset_path('styles/main.css'), false, null);
 		wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], null, true);
@@ -140,3 +141,6 @@ add_action('after_setup_theme', function () {
 			});
 
 	});
+
+// Google Fonts
+wp_enqueue_style('google_fonts', '//fonts.googleapis.com/css?family=Gentium+Basic:400,400i,700,700i|Open+Sans:400,700,800', false, null);

@@ -81,293 +81,151 @@
 <section class="impact">
   <div class="impact-image-wrapper">
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/1.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/2.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/3.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/4.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/5.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/6.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/7.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/8.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/9.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/10.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/11.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/12.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/13.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/14.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/15.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/16.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/17.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/18.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/19.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                        <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                        <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/20.jpg" alt="House of Neighborly Service">
                     </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/21.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/22.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/23.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/24.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                        <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                        <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/25.jpg" alt="House of Neighborly Service">
                     </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/26.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/27.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/28.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/29.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/30.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/31.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/32.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/33.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/34.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/35.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/36.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/37.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/38.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/39.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/40.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/49.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/42.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/43.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/44.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/45.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/46.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/47.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/48.jpg" alt="House of Neighborly Service">
                 </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
-    <span class="img-here has-overlay">
-                    <img src="https://picsum.photos/159/127" alt="Room to Read is a leading non-profit focused on girls' education and children's literacy in Asia and Africa. Learn more, donate, and get involved.">
-                </span>
+
+
 
 
 
@@ -375,21 +233,16 @@
 
   </div>
   <div class="impact-block center-block text-center cb-girls-to-impact cb-impact-to-panel">
-    <h1>House of Neighborly Service</h1>
-    <p>Offering support to San Antonio Westside families through every stage of life.</p>
-    <button href="/impact-reach/" class="btn btn-blue btn-large" target="_top">See Our Impact</button>
-
+    <h1 style="font-family: 'Open Sans'; font-weight: 800;">House of Neighborly Service</h1>
+    <p style="font-family: 'Gentium Basic';">Offering support to San Antonio Westside families through every stage of life.</p>
+{{--     <button href="/impact-reach/" class="btn btn-blue btn-large" target="_top">See Our Impact</button>
+ --}}
   </div>
 
-    <script type="text/javascript">
-
-
-
-    </script>
-
-    <style>
+  <style>
+    /* Home Page */
 .impact {
-    min-height: 650px;
+    min-height: 850px;
     position: relative;
     overflow: hidden
 }
@@ -472,15 +325,26 @@
 .impact .impact-image-wrapper span img {
     max-width: 100%;
     height: 100%;
-    width: 100%
+    width: 100%;
+    &:before {
+        content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+    opacity: .6;
+    }
 }
+
 
 .impact .impact-block {
     background-color: rgba(245, 242, 236, .9);
     position: relative;
     width: 692px;
     height: 256px;
-    top: 200px;
+    top: 250px;
     z-index: 21;
     display: block;
     margin: 0 auto;
@@ -579,5 +443,24 @@
         padding: 10px 14px
     }
 }
-    </style>
+
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+  </style>
+
 @endsection

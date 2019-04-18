@@ -14,6 +14,7 @@ use Roots\Sage\Container;
  * @param string $title
  */
 $sage_error =
+
 function ($message, $subtitle = '', $title = '') {
 	$title   = $title?:__('Sage &rsaquo; Error', 'sage');
 	$footer  = '<a href="https://roots.io/sage/docs/">roots.io/sage/docs/</a>';
