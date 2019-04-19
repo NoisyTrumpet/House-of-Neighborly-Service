@@ -67,7 +67,7 @@
     function removeImpactOverlay() {
         var overlay = $('.impact').find('.has-overlay');
         if (overlay.length) {
-            var r = Math.floor(Math.random() * (overlay.length - 1));
+            var r = Math.floor(Math.random() * (overlay.length - 7));
             if (overlay.get(r)) {
                 $(overlay.get(r)).removeClass('has-overlay');
             }
@@ -81,170 +81,189 @@
 <section class="impact">
   <div class="impact-image-wrapper">
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/1.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face1.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/2.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face2.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/3.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face3.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/4.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face4.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/5.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face5.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/6.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face6.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/7.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face7.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/8.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face8.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/9.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face9.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/10.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face10.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/11.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face11.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/12.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face12.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/13.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face13.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/14.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face14.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/15.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face15.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/16.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face16.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/17.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face17.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/18.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face18.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/19.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face19.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                        <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/20.jpg" alt="House of Neighborly Service">
+                        <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face20.jpg" alt="House of Neighborly Service">
                     </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/21.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face21.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/22.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face22.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/23.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face23.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/24.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face24.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                        <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/25.jpg" alt="House of Neighborly Service">
+                        <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face25.jpg" alt="House of Neighborly Service">
                     </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/26.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face26.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/27.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face27.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/28.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face28.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/29.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face29.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/30.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face30.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/31.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face31.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/32.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face32.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/33.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face33.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/34.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face34.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/35.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face35.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/36.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face36.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/37.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face37.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/38.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face38.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/39.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face39.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/40.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face40.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/49.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face49.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/42.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face42.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/43.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face43.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/44.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face44.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/45.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face45.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/46.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face46.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/47.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face47.jpg" alt="House of Neighborly Service">
                 </span>
     <span class="img-here has-overlay">
-                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/48.jpg" alt="House of Neighborly Service">
+                    <img class="hvr-grow" src="/wp-content/themes/hns/resources/assets/images/faces/face48.jpg" alt="House of Neighborly Service">
                 </span>
-
-
-
-
-
-
-
   </div>
   <div class="impact-block center-block text-center cb-girls-to-impact cb-impact-to-panel">
     <h1 style="font-family: 'Open Sans'; font-weight: 800;">House of Neighborly Service</h1>
-    <p style="font-family: 'Gentium Basic';">Offering support to San Antonio Westside families through every stage of life.</p>
+    <p style="font-family: 'Gentium Basic';">{!! get_field('hero_subtitle')!!}</p>
 {{--     <button href="/impact-reach/" class="btn btn-blue btn-large" target="_top">See Our Impact</button>
  --}}
   </div>
+</section>
+<div  id="mission-wrapper">
+    <div class="row">
+        <div class="col-4">
+            <img src="/wp-content/themes/resources/images/collage.svg"/>
+        </div>
+        <div class="col-8">
+            <h2>Mission Statement</h2>
+            <p>{!! get_field('mission_statement')!!}</p>
+        </div>
+    </div>
+
+</div>
+
 
   <style>
     /* Home Page */
-.impact {
-    min-height: 850px;
+
+    /* Mission Statement */
+    #mission-wrapper{
+        background-color: #2E627F;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        width: 100%;
+    }
+    /* Home Hero*/
+.impact{
+    min-height: 750px;
     position: relative;
     overflow: hidden
+}
+.impact-image-wrapper{
+    height: 100%;
 }
 
 @media(max-width:991px) {
@@ -304,6 +323,7 @@
 
 .impact .impact-image-wrapper span.has-overlay:before {
     background: rgba(23, 202, 243, .08);
+
     content: "";
     height: 100%;
     left: 0;
@@ -319,30 +339,24 @@
     left: 0;
     position: absolute;
     top: 0;
-    width: 100%
+    width: 100%;
+
 }
+
+
 
 .impact .impact-image-wrapper span img {
     max-width: 100%;
     height: 100%;
     width: 100%;
-    &:before {
-        content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
-    opacity: .6;
-    }
 }
 
 
 .impact .impact-block {
-    background-color: rgba(245, 242, 236, .9);
+    background-color: rgba(46, 98, 127, .8);
+
     position: relative;
-    width: 692px;
+    width: 1000px;
     height: 256px;
     top: 250px;
     z-index: 21;
@@ -371,7 +385,7 @@
 }
 
 .impact .impact-block h1 {
-    color: #127f98;
+    color: #ffffff;
     font-size: 63px;
     letter-spacing: -.71px;
     text-align: center;
@@ -399,7 +413,7 @@
 
 .impact .impact-block p {
     font-size: 28px;
-    color: #127f98;
+    color: #ffffff;
     text-align: center;
     margin: 14px 0 0 0;
     line-height: 28px;
@@ -443,6 +457,22 @@
         padding: 10px 14px
     }
 }
+
+.img-here:after{
+    background: rgba(112, 169, 161, .5);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%
+
+}
+
+/*.img-here:{
+    -webkit-filter: grayscale(100%);  Safari 6.0 - 9.0
+  filter: grayscale(100%);
+}*/
 
 /* Grow */
 .hvr-grow {

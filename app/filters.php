@@ -98,6 +98,7 @@ add_filter('comments_template', function ($comments_template) {
 
 add_filter('sage/tempaltes/page/data', function (array $data) {
 		$data['hero_subtitle'] = get_field('hero_subtitle');
+		$data['mission_statement'] = get_field('mission_statement');
 	});
 
 /**
