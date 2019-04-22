@@ -235,11 +235,16 @@
 <div  id="mission-wrapper">
     <div class="row">
         <div class="col-4">
-            <img src="/wp-content/themes/resources/images/collage.svg"/>
+            <img id="mission-pic" src="@asset('images/collage.svg')"/>
         </div>
         <div class="col-8">
             <h2>Mission Statement</h2>
-            <p>{!! get_field('mission_statement')!!}</p>
+            <p>{!! get_field('mission_statement') !!}</p>
+        </div>
+        <div class="container capital-campaign-home">
+            <h2>{!! get_field('cc_cta_title') !!}</h2>
+            <h5 id="cc_cta_subtitle">{!! get_field('cc_cta_subtitle') !!}</h5>
+            <button class="cta_button teal" id="cc_cta_button">Invest In Family</button>
         </div>
     </div>
 
@@ -247,6 +252,38 @@
 
 
   <style>
+    html {
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+.cta_button{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+.teal{
+    background-color: rgb(112, 169, 161);
+}
+
+.menu-item a{
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    color: rgb(46, 98, 127)!important;
+    font-weight: 600;
+}
     /* Home Page */
 
     /* Mission Statement */
@@ -255,6 +292,55 @@
         padding-top: 3rem;
         padding-bottom: 3rem;
         width: 100%;
+    }
+
+    .capital-campaign-home{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .capital-campaign-home h2{
+        font-family: 'Open Sans';
+        font-weight: 800;
+        color: #ffffff;
+        text-align: center;
+/*        text-transform: uppercase;
+*/    }
+    #cc_cta_subtitle{
+        font-family: 'Gentium Basic';
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+        max-width: 75%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .white{
+        color: #ffffff;
+    }
+
+    #mission-wrapper .col-8 h2{
+        font-family: 'Open Sans';
+        font-weight: 800;
+        color: #ffffff;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #mission-wrapper .col-8 p{
+        font-family: 'Gentium Basic';
+        font-weight: 100;
+        color: #ffffff;
+        text-align: left;
+        max-width: 75%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #mission-pic{
+        max-width: 70%;
+        margin: 0 auto;
+        display: block;
     }
     /* Home Hero*/
 .impact{
@@ -342,8 +428,6 @@
     width: 100%;
 
 }
-
-
 
 .impact .impact-image-wrapper span img {
     max-width: 100%;
