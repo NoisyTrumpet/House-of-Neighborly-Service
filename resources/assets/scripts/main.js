@@ -23,4 +23,19 @@ const routes = new Router({
 // Load Events
 jQuery(document).ready(() => routes.loadEvents());
 
-// Home Page Header Animation
+import { config, library, dom } from '@fortawesome/fontawesome-svg-core';
+/* For free brands */
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+/* For free solid */
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+/* For free regular */
+// import { faAngleLeft } from '@fortawesome/free-regular-svg-icons';
+/* For pro light */
+/* For same icon with two different styles */
+// import { faAngleRight as fasFaAngleRight } from '@fortawesome/free-solid-svg-icons';
+// import { faAngleRight as falFaAngleRight } from '@fortawesome/pro-light-svg-icons';
+
+library.add(faFacebook, faBars);
+config.searchPseudoElements=true;
+
+dom.watch();

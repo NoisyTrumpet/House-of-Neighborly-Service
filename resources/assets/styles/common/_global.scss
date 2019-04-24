@@ -1,0 +1,136 @@
+@import "common/variables";
+// Global Font Styles:
+    html {
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+};
+// Icon Setup
+/* Step 1: Common Properties: All required to make icons render reliably */
+.icon::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Step 2: Reference Individual Icons */
+
+
+.bars::before {
+font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0c9";
+}
+
+/* Note: Make sure to include the correct weight and unicode value for the icon */
+
+// Header & Primary Navigation Styles
+.menu-item a{
+	color: $hns-blue;
+	display: inline-block!important;
+	font-family: $header;
+	font-weight: 800;
+}
+
+.navbar-hamburger{
+	float: left;
+}
+
+
+.navbar-toggle{
+	float: right;
+	appearance: button;
+}
+
+.navbar-brand{
+	padding-top: 0px!important;
+	padding-bottom: 0px!important;
+	margin-right: 0px!important;
+}
+
+
+#menu-navigation {
+	display: flex;
+	float: right;
+}
+
+.navbar-header{
+	width: 100%!important;
+}
+
+.nav{
+    margin-top: 1rem;
+    float: right;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-nav { 
+    flex-direction: row!important;
+    margin-bottom: 0px;
+    position: static;
+}
+@media (min-width: 1080px) {
+  .navbar {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  .navbar .navbar-nav {
+    flex-direction: row;
+  }
+  .navbar .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+  }
+  // .navbar .navbar-collapse {
+  //   display: flex!important;
+  // }
+  .navbar .navbar-toggler {
+    display: none;
+  }
+  .navbar .navbar-nav .dropdown-menu {
+    position:absolute;
+  }
+  .navbar-hamburger{
+  	display: none;
+  }
+}
+
+@media (max-width: 1080px) {
+	#menu-navigation{
+		display: none;
+	}
+
+	.navbar .navbar-nav{
+		flex-direction: column;
+	}
+	.navbar{
+		flex-direction: column!important;
+	}
+	#nav-logo{
+		margin: 0 auto!important;
+	}
+
+	.navbar-hamburger{
+		display: inline-flex;
+		position: relative;
+bottom: 53px;
+	}
+
+
+}
+
+

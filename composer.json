@@ -38,7 +38,10 @@
     "roots/sage-lib": "~9.0.9",
     "soberwp/controller": "~2.1.0",
     "johnbillion/extended-cpts": "^4.2",
-    "mwdelaney/sage-bootstrap4-navwalker": "^1.3"
+    "mwdelaney/sage-bootstrap4-navwalker": "^1.3",
+    "jjgrainger/posttypes": "^2.0",
+    "soberwp/models": "1.1.0-p",
+    "saffa803/sage-bulma-navwalker": "^1.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.8.0",

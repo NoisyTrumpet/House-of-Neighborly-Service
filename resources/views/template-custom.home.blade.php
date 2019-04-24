@@ -6,8 +6,6 @@
 @section('content')
 {{-- 	@include('partials.page-header')
  --}}
-<style>
-    </style>
     <script type="text/javascript">
  var $window = $(window);
     var hijack = $('.hijack'), hasHijack = hijack.length > 0;
@@ -232,6 +230,8 @@
  --}}
   </div>
 </section>
+
+
 <div  id="mission-wrapper">
     <div class="row">
         <div class="col-4">
@@ -247,43 +247,50 @@
             <button class="cta_button teal" id="cc_cta_button">Invest In Family</button>
         </div>
     </div>
-
 </div>
+
+<section id="programs">
+    <div class="programs-wrapper">
+        <h2>Programs</h2>
+    </div>
+</section>
+
+
+
 
 
   <style>
-    html {
-  font-size: 16px;
-}
-@media screen and (min-width: 320px) {
-  html {
-    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
-  }
-}
-@media screen and (min-width: 1000px) {
-  html {
-    font-size: 22px;
-  }
-}
+    {{-- Programs --}}
+    .programs-wrapper{
+        margin: auto;
+        align-self: center;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+    }
+    .programs-wrapper h2{
+        color: #2E627F;
+        text-align: center;
+        font-family: 'Open Sans';
+        font-weight: 800;
+    }
+    {{-- Programs --}}
 
 .cta_button{
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
-
+    font-family: 'Open Sans';
+    font-weight: 800;
+    margin: 0 auto;
+    display: block;
 }
 
 .teal{
     background-color: rgb(112, 169, 161);
 }
 
-.menu-item a{
-    font-family: 'Open Sans';
-    text-transform: uppercase;
-    color: rgb(46, 98, 127)!important;
-    font-weight: 600;
-}
+
     /* Home Page */
 
     /* Mission Statement */
@@ -307,12 +314,15 @@
 */    }
     #cc_cta_subtitle{
         font-family: 'Gentium Basic';
-        font-weight: 300;
+        font-weight: 400;
         color: #ffffff;
         text-align: center;
         max-width: 75%;
         display: block;
         margin: 0 auto;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        font-style: italic;
     }
 
     .white{
@@ -408,8 +418,10 @@
 }
 
 .impact .impact-image-wrapper span.has-overlay:before {
-    background: rgba(23, 202, 243, .08);
+        background: rgba(40, 40, 40, .08);
 
+/*  filter: grayscale(100%)!important;
+*/
     content: "";
     height: 100%;
     left: 0;
@@ -419,7 +431,9 @@
 }
 
 .impact .impact-image-wrapper span.has-overlay:after {
-    background: rgba(40, 40, 40, .35);
+        background: rgba(23, 202, 243, .45);
+/*  filter: grayscale(100%)!important;
+*/
     content: "";
     height: 100%;
     left: 0;
@@ -553,10 +567,9 @@
 
 }
 
-/*.img-here:{
-    -webkit-filter: grayscale(100%);  Safari 6.0 - 9.0
+.img-here{
   filter: grayscale(100%);
-}*/
+}
 
 /* Grow */
 .hvr-grow {

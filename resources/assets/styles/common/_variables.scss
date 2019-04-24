@@ -2,8 +2,16 @@
 @import "~bootstrap/scss/functions";
 
 $theme-colors: (
-  primary: #525ddc
+  primary: #525ddc,
 );
+// Colors
+$hns-blue: #2e627f;
+// Fonts
+$header: 'Open Sans';
+$paragraph: 'Gentium Basic';
+// Font Weights
+$heavy: '800';
+
 
 /** Bootstrap navbar fix (https://git.io/fADqW) */
 $navbar-dark-toggler-icon-bg: none;
