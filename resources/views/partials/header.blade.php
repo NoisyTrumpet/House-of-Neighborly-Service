@@ -1,14 +1,4 @@
-{{-- <header class="banner">
-
-
-	@if (has_nav_menu('primary_navigation'))
-	  {!! wp_nav_menu($primarymenu) !!}
-	@endif
-
-</header> --}}
-
 <header class="banner navbar navbar-default navbar-static-top" role="banner">
-{{--   <div class="container"> --}}
     <a class="navbar-brand" href="{{ home_url('/') }}">
         <img id="nav-logo" alt="Brand" style="max-width: 100px;" src="/wp-content/themes/hns/resources/assets/images/logo_small.png">
     </a>
@@ -19,6 +9,7 @@
     @if (has_nav_menu('primary_navigation'))
       {!! wp_nav_menu($primarymenu) !!}
     @endif
+
     </div>
 
     <nav class="collapse navbar-collapse hamburger" role="navigation">
@@ -26,5 +17,7 @@
 	  {!! wp_nav_menu($primarymenu) !!}
 	@endif
     </nav>
-{{--   </div> --}}
+    <div class="donate-button">
+        <a href="/donate">Donate</a>
+    </div>
 </header>

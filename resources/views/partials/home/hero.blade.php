@@ -1,75 +1,3 @@
-<style>
-    </style>
-    <script type="text/javascript">
- var $window = $(window);
-    var hijack = $('.hijack'), hasHijack = hijack.length > 0;
-    var isMobile = $window.width() <= 991;
-    var imagesLoaded = false;
-    var impactReady = true,
-        svgUseAnimation = { literacy2girls: true, girls2impact: true, girls2panel: true, impact2panel: true, panel2button: true },
-        animationReady = {
-            literacy: false,
-            literacyConnect: false,
-            girlEducation: false,
-            girlEducationConnect: false,
-            impact: false,
-            impactConnect: false,
-            donationConnect: false
-        },
-        svgAnimation = 1;
-
-    function paintHomepage() {
-
-        // impact
-        if (!animationReady.impact) {
-            if (position.impact <= scrollTop) {
-                window.impactInterval = setInterval(function () {
-                    removeImpactOverlay();
-                }, 10);
-                animationReady.impact = true;
-            }
-        }
-
-    }
-
-    function paintHomepageInstantly() {
-        window.impactInterval = setInterval(function () {
-            removeImpactOverlay();
-        }, 10);
-
-    }
-
-    $(window).on('load', function () {
-        var m = $window.width() <= 991;
-        if (isMobile !== m) {
-            svgCircle();
-            isMobile = m;
-        }
-        paintHomepageInstantly();
-    });
-
-    $window.on('scroll', function (e) {
-        if (imagesLoaded) {
-            if (!isPagePainted()) {
-                paintHomepage();
-            }
-        }
-    });
-
-    function removeImpactOverlay() {
-        var overlay = $('.impact').find('.has-overlay');
-        if (overlay.length) {
-            var r = Math.floor(Math.random() * (overlay.length - 7));
-            if (overlay.get(r)) {
-                $(overlay.get(r)).removeClass('has-overlay');
-            }
-
-        } else {
-            clearInterval(window.impactInterval);
-            impactReady = true;
-        }
-    }
-    </script>
 <section class="impact">
   <div class="impact-image-wrapper">
     <span class="img-here has-overlay">
@@ -224,3 +152,75 @@
  --}}
   </div>
 </section>
+
+<script>
+    // Home Page Hero Scripts
+ var $window = $(window);
+    var hijack = $('.hijack'), hasHijack = hijack.length > 0;
+    var isMobile = $window.width() <= 991;
+    var imagesLoaded = false;
+    var impactReady = true,
+        svgUseAnimation = { literacy2girls: true, girls2impact: true, girls2panel: true, impact2panel: true, panel2button: true },
+        animationReady = {
+            literacy: false,
+            literacyConnect: false,
+            girlEducation: false,
+            girlEducationConnect: false,
+            impact: false,
+            impactConnect: false,
+            donationConnect: false
+        },
+        svgAnimation = 1;
+
+    function paintHomepage() {
+
+        // impact
+        if (!animationReady.impact) {
+            if (position.impact <= scrollTop) {
+                window.impactInterval = setInterval(function () {
+                    removeImpactOverlay();
+                }, 10);
+                animationReady.impact = true;
+            }
+        }
+
+    }
+
+    function paintHomepageInstantly() {
+        window.impactInterval = setInterval(function () {
+            removeImpactOverlay();
+        }, 10);
+
+    }
+
+    $(window).on('load', function () {
+        var m = $window.width() <= 991;
+        if (isMobile !== m) {
+            svgCircle();
+            isMobile = m;
+        }
+        paintHomepageInstantly();
+    });
+
+    $window.on('scroll', function (e) {
+        if (imagesLoaded) {
+            if (!isPagePainted()) {
+                paintHomepage();
+            }
+        }
+    });
+
+    function removeImpactOverlay() {
+        var overlay = $('.impact').find('.has-overlay');
+        if (overlay.length) {
+            var r = Math.floor(Math.random() * (overlay.length - 7));
+            if (overlay.get(r)) {
+                $(overlay.get(r)).removeClass('has-overlay');
+            }
+
+        } else {
+            clearInterval(window.impactInterval);
+            impactReady = true;
+        }
+    }
+</script>

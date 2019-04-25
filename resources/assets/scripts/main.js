@@ -9,6 +9,8 @@ import Router from './util/Router';
 import common from './routes/common';
 import home from './routes/home';
 import aboutUs from './routes/about';
+import AOS from 'aos';
+AOS.init();
 
 /** Populate Router instance with DOM routes */
 const routes = new Router({
@@ -39,3 +41,4 @@ library.add(faFacebook, faBars);
 config.searchPseudoElements=true;
 
 dom.watch();
+
