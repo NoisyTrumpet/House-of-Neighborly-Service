@@ -107,6 +107,9 @@ add_filter('sage/tempaltes/page/data', function (array $data) {
 		$data['child_development_text'] = get_field('child_development_text');
 		$data['senior_health_text'] = get_field('senior_health_text');
 		$data['food_security_text'] = get_field('food_security_text');
+		$data['don_header'] = get_field('don_header');
+		$data['don_subtitle'] = get_field('don_subtitle');
+		$data['number_header'] = get_field('number_header');
 	});
 
 /**

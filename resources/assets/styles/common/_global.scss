@@ -151,6 +151,7 @@ bottom: 53px;
 	padding-bottom: 2rem;
 	padding-left: 2rem;
 	padding-right: 2rem;
+    margin-left: 2rem;
 }
 
 .donate-button a {
@@ -184,6 +185,9 @@ bottom: 53px;
     font-weight: 800;
     margin: 0 auto;
     display: block;
+    border: 0px none;
+    color: #ffffff;
+    border-radius: $button-radius;
 }
 
 .teal{
@@ -530,14 +534,177 @@ bottom: 53px;
 }
 /* Home Programs Section Styles END */
 /* Home Testimonial Section Styles START */
+.testimonials-wrapper{
+    background-color: $hns-blue;
+    padding: 3rem 1rem 3rem 1rem;
+}
+
+.testimonials-quote{
+    color: #ffffff;
+    font-family: $paragraph;
+    font-style: italic;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto!important;
+    display: block!important;
+}
+
+.testimonials-author{
+    color: #ffffff;
+    font-family: $header;
+    text-align: right;
+    font-weight: 800;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+body, div, p, span, a, h1, h2, h3 {
+    -webkit-font-smoothing: antialiased;
+}
+
+$testimonials: 3;
+$testimonials-width: 100%;
+$next: 10 / $testimonials;
+$fade-speed: 8;
+
+@for $i from 1 through $testimonials {
+    $min: ((100/$testimonials)*$i);
+    $max: (100/$testimonials);
+    $left: 0;
+    @if $i > 1 {
+        $left: -($testimonials-width * $i) + $testimonials-width;       
+    }
+    
+    @keyframes testimonials-fade-in-out#{$i} {
+        #{$min - $max}% { opacity: 0; left: $left; }
+        #{($min - ($max / $fade-speed)*3)}% { opacity: 1; }
+        #{$min - ($max / $fade-speed)}% { opacity: 1; }
+        #{min(($min + $next - 0.00001), 99.99999)}% { opacity: 0; left: $left; }
+        #{min(($min + $next), 100)}% { opacity: 0; left: -($testimonials-width * $testimonials); }
+    }
+}
+
+.testimonials {
+    position: relative;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    margin: 0 auto;
+    width: $testimonials-width; // adjust with media queries
+    // overflow: hidden;
+
+    > li {
+        position: relative;
+        text-align: center;
+        width: $testimonials-width;
+        // font-family: 'Oswald', sans-serif;
+        // color: #444;
+        display: block;
+        list-style: none;
+        // margin: 0 0 30px 0;
+        // padding: 0;
+
+        > p {
+            // text-align: right;
+            // margin: 8px 0 0;
+        }
+    }
+}
+
+#testimonials-checkbox {
+    display: none;
+    
+    
+    
+    &:not(:checked)
+    +label {
+
+        
+        
+        + ul.testimonials {
+            // overflow: hidden;
+            white-space: nowrap;
+            vertical-align: middle;
+            
+            > li {
+                margin: 0;
+                opacity: 0;
+                display: inline-block;
+                white-space: normal;
+
+                @for $i from 1 through $testimonials {
+                    &:nth-of-type(#{$i}) {
+                        animation: testimonials-fade-in-out#{$i} $testimonials*8s infinite;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
 
 /* Home Testimonial Section Styles END */
+
+
+/* Home Donation Styles START */
+.donation-wrapper{
+    padding: 3rem 0 3rem 0;
+    background-image: $light-blue-gradient;
+    text-align: center;
+}
+
+.donation-header{
+    color: $hns-blue;
+    font-family: $header;
+    font-weight: 800;
+}
+
+.donation-subtitle{
+    color: $hns-very-dark-blue;
+    font-family: $header;
+}
+
+.donation-button{
+    background-color: $hns-blue;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    border-radius: $button-radius;
+    color: #ffffff !important;
+    border: none;
+    font-family: $header;
+    font-weight: 800;
+    display: block;
+    margin: 0 auto;
+}
+/* Home Donation Styles END */
+/* By the Numbers START */
+.numbers-header{
+    font-family: $header;
+    font-weight: 800;
+    color: $hns-blue;
+    text-align: center;
+
+}
+.numbers-icon{
+    max-width: 250px!important;
+    display: block;
+    margin: 0 auto;
+    max-height: 200px;
+}
+.counter-value{
+    text-align: center;
+    font-family: $header;
+    color: $hns-teal;
+    font-weight: 800;
+}
+/* By the Numbers END */
+
 
 
 
 /* Grow */
 .hvr-grow {
-    display: inline-block;
+    display: block;
     vertical-align: middle;
     transform: translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);

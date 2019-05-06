@@ -8,4 +8,6 @@
     @include('partials/home/programs')
     @include('partials/home/testimonial')
     @include('partials/home/donation')
+    @include('partials/home/numbers')
+
 @endsection

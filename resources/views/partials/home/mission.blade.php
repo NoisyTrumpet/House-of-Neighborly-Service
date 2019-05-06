@@ -19,7 +19,7 @@
     data-aos-anchor-placement="top-center" class="container capital-campaign-home">
             <h2>{!! get_field('cc_cta_title') !!}</h2>
             <h5 id="cc_cta_subtitle">{!! get_field('cc_cta_subtitle') !!}</h5>
-            <button class="cta_button teal" id="cc_cta_button">Invest In Family</button>
+            <button class="cta_button teal hvr-grow" id="cc_cta_button">Invest In Family</button>
         </div>
     </div>
 </div>

@@ -16,7 +16,10 @@ $header: 'Open Sans';
 $paragraph: 'Gentium Basic';
 // Font Weights
 $heavy: '800';
-
+// Button Border-Radius
+$button-radius: 12px;
+// Gradients
+$light-blue-gradient: linear-gradient(to bottom, #AADEEA, #ffffff);
 
 /** Bootstrap navbar fix (https://git.io/fADqW) */
 $navbar-dark-toggler-icon-bg: none;
