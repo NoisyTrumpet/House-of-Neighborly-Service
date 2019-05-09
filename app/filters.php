@@ -90,9 +90,15 @@ add_filter('comments_template', function ($comments_template) {
 		return $comments_template;
 	}, 100);
 
+// Add support for post thumbnails
+add_theme_support('post-thumbnails');
+
 /**
  * Advanced Custom Fields
  */
+// add_filter('pre_option_rg_gforms_disable_css', '__return_true');
+add_filter('gform_disable_print_form_scripts', '__return_true');
+// add_filter('gform_init_scripts_footer', '__return_true');
 
 // Passing values to all pages
 
@@ -109,7 +115,13 @@ add_filter('sage/tempaltes/page/data', function (array $data) {
 		$data['food_security_text'] = get_field('food_security_text');
 		$data['don_header'] = get_field('don_header');
 		$data['don_subtitle'] = get_field('don_subtitle');
-		$data['number_header'] = get_field('number_header');
+		$data['numbers_interventions'] = get_field('numbers_interventions');
+		$data['numbers_meals'] = get_field('numbers_meals');
+		$data['numbers_fitness'] = get_field('numbers_fitness');
+		$data['numbers_diapers'] = get_field('numbers_diapers');
+		$data['newsletter_subtitle'] = get_field('newsletter_subtitle');
+		$data['hero_image'] = get_field('hero_image');
+
 	});
 
 /**

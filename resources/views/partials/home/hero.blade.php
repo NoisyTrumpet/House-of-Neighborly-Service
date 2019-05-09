@@ -147,7 +147,7 @@
   </div>
   <div class="impact-block center-block text-center cb-girls-to-impact cb-impact-to-panel">
     <h1 style="font-family: 'Open Sans'; font-weight: 800;">House of Neighborly Service</h1>
-    <p style="font-family: 'Gentium Basic';">{!! get_field('hero_subtitle')!!}</p>
+    <h4 style="font-family: 'Gentium Basic';">{!! get_field('hero_subtitle')!!}</h4>
 {{--     <button href="/impact-reach/" class="btn btn-blue btn-large" target="_top">See Our Impact</button>
  --}}
   </div>

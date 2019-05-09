@@ -1,5 +1,5 @@
 // import external dependencies
-import 'jquery';
+// import 'jquery';
 
 // Import everything from autoload
 import './autoload/**/*'
@@ -30,6 +30,7 @@ import { config, library, dom } from '@fortawesome/fontawesome-svg-core';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 /* For free solid */
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
 /* For free regular */
 // import { faAngleLeft } from '@fortawesome/free-regular-svg-icons';
 /* For pro light */
@@ -37,10 +38,13 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 // import { faAngleRight as fasFaAngleRight } from '@fortawesome/free-solid-svg-icons';
 // import { faAngleRight as falFaAngleRight } from '@fortawesome/pro-light-svg-icons';
 
-library.add(faFacebook, faBars);
+library.add(faFacebook, faBars, far);
 config.searchPseudoElements=true;
 
 dom.watch();
+
+// Home Hero:
+
 
 // Animated Numbers:
 var a = 0;
@@ -62,10 +66,10 @@ $(window).scroll(function() {
           duration: 2000,
           easing: 'swing',
           step: function() {
-            $this.text(Math.floor(this.countNum));
+            $this.text(commaSeparateNumber(Math.floor(this.countNum)));
           },
           complete: function() {
-            $this.text(this.countNum);
+            $this.text(commaSeparateNumber(this.countNum));
             //alert('finished');
           },
 
@@ -75,3 +79,13 @@ $(window).scroll(function() {
   }
 
 });
+
+function commaSeparateNumber(val) {
+  while (/(\d+)(\d{3})/.test(val.toString())) {
+    val = val.toString().replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
+  }
+  return val + '+';
+
+}
+
+// Animated SVGs

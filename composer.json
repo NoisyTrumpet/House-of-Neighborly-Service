@@ -41,7 +41,9 @@
     "mwdelaney/sage-bootstrap4-navwalker": "^1.3",
     "jjgrainger/posttypes": "^2.0",
     "soberwp/models": "1.1.0-p",
-    "saffa803/sage-bulma-navwalker": "^1.0"
+    "saffa803/sage-bulma-navwalker": "^1.0",
+    "josh-taylor/sage-svg": "^0.2.0",
+    "log1x/sage-directives": "^1.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.8.0",
