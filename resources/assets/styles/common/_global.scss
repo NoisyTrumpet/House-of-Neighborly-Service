@@ -714,6 +714,8 @@ $fade-speed: 8;
     margin-top: 2rem;
 }
 /* By the Numbers END */
+
+
 /* FOOTER STYLES BEGIN */
 .footer-blog-title{
     font-family: $header;
@@ -920,10 +922,7 @@ border: #BCE0FD solid 3px;
 }
 .page-title{
     position: absolute;
-    position: absolute;
-    top: 92%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
+    bottom: -11px;
     color: white;
     font-family: $header;
     font-weight: 800;
@@ -932,6 +931,155 @@ border: #BCE0FD solid 3px;
     text-align: center;
     line-height: 1.5!important;
 }
+/* Our Story Styles */
+.about-subtitle-section{
+    margin: 3rem 0 3rem 0;
+}
+
+.about-subtitle{
+    text-align: center;
+    font-family: $paragraph;
+    font-weight: 800;
+    color: $hns-blue;
+}
+
+/* Working method */
+.about1 {
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(46,98,127,.7)
+    ),
+    /* bottom, image */
+    url('../images/about/about1.jpg');
+    padding: 5rem 0 5rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.about2 {
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(112, 169, 161,.7)
+    ),
+    /* bottom, image */
+    url('../images/about/about2.jpg');
+    padding: 8rem 0 8rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 40%;
+}
+.about3 {
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(206, 218, 81, .7)
+    ),
+    /* bottom, image */
+    url('../images/about/about3.jpg');
+    padding: 8rem 0 8rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 50%;
+}
+
+.about1-header{
+    text-align: center;
+    color: white;
+    font-family: $header;
+    font-weight: 800;
+}
+
+.about1-subtitle{
+    text-align: center;
+    color: white;
+    font-family: $paragraph;
+    font-weight: 800;
+}
+.about2-subtitle{
+    text-align: center;
+    color: white;
+    font-family: $paragraph;
+    font-weight: 800;
+    font-style: italic;
+}
+.about3-subtitle{
+    text-align: center;
+    color: $hns-blue;
+    font-family: $paragraph;
+    font-weight: 800;
+    font-style: italic;
+}
+// Stories
+.story-header{
+    text-align: center;
+    margin: 1rem 0;
+    font-family: $header;
+    color: $hns-blue;
+    font-weight: 800;
+}
+
+
+.story-image{
+        background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(46,98,127,.3)
+    );
+    z-index: 4;
+    border-radius: 12px;
+}
+
+.story-image img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    z-index: -1;
+    border-radius: 12px;
+}
+
+.story-title{
+    position: absolute;
+    text-align: center!important;
+    bottom: .25rem;
+    // line-height: 1.5;
+    color: white;
+    font-family: $header;
+    font-weight: 800;
+    width: 92%;
+}
+
+#about-stories{
+    margin: 3rem 0;
+}
+
+.story-col{
+    margin:1rem 0;
+}
+
+.big{
+    width: 100%;
+}
+
+.blue{
+    background-color: $hns-blue;
+}
+
+.hns-button{
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    border-radius: $button-radius;
+    color: #ffffff !important;
+    border: none;
+    font-family: $header;
+    font-weight: 800;
+    display: block;
+    margin: 0 auto;
+}
+
+
 
 /* Grow */
 .hvr-grow {

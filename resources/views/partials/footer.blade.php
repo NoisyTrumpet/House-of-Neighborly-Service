@@ -2,7 +2,8 @@
 {{--     @php dynamic_sidebar('sidebar-footer') @endphp --}}
 	@query([
 	  'post_type' => 'post',
-	  'posts_per_page' => 1
+	  'posts_per_page' => 1,
+	  'cat' => '3'
 
 	])
 

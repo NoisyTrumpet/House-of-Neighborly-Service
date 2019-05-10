@@ -121,6 +121,14 @@ add_filter('sage/tempaltes/page/data', function (array $data) {
 		$data['numbers_diapers'] = get_field('numbers_diapers');
 		$data['newsletter_subtitle'] = get_field('newsletter_subtitle');
 		$data['hero_image'] = get_field('hero_image');
+		$data['about_subtitle'] = get_field('about_subtitle');
+		$data['about_block_1'] = get_field('about_block_1');
+		$data['about1_header'] = get_sub_field('about1_header');
+		$data['about1_subtitle'] = get_sub_field('about1_subtitle');
+		$data['about_block_2'] = get_field('about_block_2');
+		$data['about2_subtitle'] = get_sub_field('about2_subtitle');
+		$data['about_block_3'] = get_field('about_block_3');
+		$data['about3_subtitle'] = get_sub_field('about3_subtitle');
 
 	});
 
