@@ -34,8 +34,8 @@
     		data-aos-once="false"
     		data-aos-anchor-placement="top-center"
 			class="container">
-			<h3 class="about1-header">@field('about_block_1', 'about1_header')</h3>
-			<p class="about1-subtitle">@field('about_block_1', 'about1_subtitle')</p>
+			<h3 class="about1-header">@field('about_block_1_header')</h3>
+			<p class="about1-subtitle">@field('about_sub_1')</p>
 			</div>
 		</div>
 		<div class="about2">
@@ -49,7 +49,7 @@
     		data-aos-mirror="true"
     		data-aos-once="false"
     		data-aos-anchor-placement="top-center"
-				class="about2-subtitle">@field('about_block_2', 'about2_subtitle')</h4>
+				class="about2-subtitle">@field('about_sub_2')</h4>
 			</div>
 		</div>
 		<div class="about3">
@@ -63,7 +63,7 @@
     		data-aos-mirror="true"
     		data-aos-once="false"
     		data-aos-anchor-placement="top-center"
-				class="about3-subtitle">@field('about_block_3', 'about3_subtitle')</h4>
+				class="about3-subtitle">@field('about_sub_3')</h4>
 			</div>
 		</div>
 	</section>

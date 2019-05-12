@@ -12,7 +12,7 @@
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white">
         <h1 class="capital-header">Building Hope @title</h1>
-        <h4 class="capital-sub">@field('capital_subtitle')</h4>
+        <p class="capital-sub">@field('capital_subtitle')</p>
       </div>
     </div>
   </div>

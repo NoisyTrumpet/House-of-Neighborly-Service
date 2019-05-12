@@ -42,9 +42,11 @@
 	<div class="footer-newsletter">
 		<h1 class="newsletter-title">Stay Connected!</h1>
 		<p class="newsletter-subtitle">{!! get_field('newsletter_subtitle') !!}</p>
+		<div class="container">
 		<div class="form">
 		@shortcode('[gravityform id="2" title="false" description="false"]')
 		</div>
+	</div>
 	</div>
 	<div class="container">
 		<div class="footer-menu">
@@ -87,7 +89,9 @@
 					</a>
 
 	    		</div>
-	    		<iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3474.9194804508247!2d-98.52667838489916!3d29.431149682109538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c5f291ab01235%3A0x1e2e961e60f7a265!2sHouse+of+Neighborly+Services!5e0!3m2!1sen!2sus!4v1557348478298!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	    		<div class="container">
+	    		<iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3474.9194804508247!2d-98.52667838489916!3d29.431149682109538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c5f291ab01235%3A0x1e2e961e60f7a265!2sHouse+of+Neighborly+Services!5e0!3m2!1sen!2sus!4v1557348478298!5m2!1sen!2sus" width="450" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	    	</div>
 	    	</div>
 		</div>
 	</div>

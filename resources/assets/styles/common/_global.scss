@@ -127,17 +127,21 @@ font-family: "Font Awesome 5 Free";
 		margin: 0 auto!important;
 	}
 
-	.navbar-hamburger{
-		display: inline-flex;
-		position: relative;
-bottom: 53px;
-	}
-
-.donate-button{
-	position: absolute!important;
-	right: 0px!important;
-	padding-bottom: 3.3rem!important;
+    .donate-button{
+    position: absolute!important;
+    float: right!important;
+    right: 0;
+    padding: .5rem .5rem!important;
+    bottom: 2rem;
 }
+
+.navbar-header .navbar-hamburger{
+    margin:0 1rem!important;
+    position: relative;
+    bottom: 2.5rem;
+    border-radius: 4px;
+}
+
 
 }
 
@@ -885,6 +889,8 @@ border: #BCE0FD solid 3px;
 .google-map{
     display: block;
     margin: 0 auto!important;
+    width: 100%;
+    max-width: 650px;
 }
 
 .footer-bottom{
@@ -1109,6 +1115,225 @@ border: #BCE0FD solid 3px;
 .site {
     max-width: 100% !important;
 }
+
+// Contact Page
+#contact-page{
+    margin: 3rem 0;
+}
+
+.contact-title{
+    color: $hns-blue;
+    font-family: $header;
+    font-weight: 800;
+    text-align: center
+}
+.contact-link{
+    color: white!important;
+}
+
+.contact-link h5{
+    color: $hns-teal;
+    font-family: $paragraph;
+    font-weight: 800;
+
+}
+
+.contact-link .svg-inline--fa.fa-stack-1x{
+    color: white!important;
+}
+
+.contact-link i{
+    color: white!important;
+}
+
+.icon-background{
+    background-color: $hns-blue;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    display: inline-block;
+    margin: 1rem 1rem 1rem 0;
+}
+
+#addressBottom{
+    margin-left: 5rem;
+}
+
+.contact-col{
+    margin:1rem 0;
+}
+
+.contact-col .name_last label{
+    font-family: $paragraph;
+    color: $hns-blue!important;
+}
+
+.contact-col .form .gfield_label, .contact-col .name_first label{
+    font-family: $header;
+    color: $hns-blue!important;
+}
+
+.contact-col .gform_button{
+    width: 100%!important;
+    padding: .5rem 0 .5rem 0;
+    background-color: $hns-blue;
+    font-family: $header;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    border-radius: $button-radius;
+    border: none;
+}
+
+/* Family Support Page */
+.family{
+    margin: 3rem auto;
+}
+.program-page-header{
+    color: $hns-blue;
+    font-family: $paragraph;
+    text-align: center;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.program-page-text{
+    color: $hns-blue;
+    font-family: $paragraph;
+    text-align: justify;
+}
+
+.program-sub-header{
+    color: $hns-blue;
+    font-family: $header;
+    text-align: center;
+    font-weight: 800;
+}
+
+// DONATE CTA BLOCK:
+.donateCTA{
+    margin: 5rem 0;
+    padding: 5rem 0;
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(46,98,127,.7)
+    ),
+    /* bottom, image */
+    url('../images/programs/cta-donate.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    .CTArow{
+        margin:0 auto;
+    }
+    .donateCTA-header{
+        text-align: center;
+        color: white;
+        font-family: $header;
+        font-weight: 800;
+    }
+    .donateCTA-text{
+        text-align: center;
+        color: white;
+        font-family: $paragraph;
+    }
+    p{
+        max-width: 800px;
+        margin:1rem auto;
+    }
+}
+
+
+// NEED HELP?
+
+.needHelp-block{
+    margin: 0 auto;
+}
+.needHelp-header{
+    color: $hns-teal;
+    font-family: $header;
+    text-align: center;
+    font-weight: 800;
+}
+
+.needHelp-text{
+    color: $hns-blue;
+    font-family: $paragraph;
+}
+
+// Capital Campaign
+    .alt {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.alt video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.alt .container {
+  position: relative;
+  z-index: 2;
+}
+
+.alt .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  .alt {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  .alt video {
+    display: none;
+  }
+}
+
+.capital-header{
+    font-family: $header;
+    font-weight: 800;
+    color: white;
+}
+
+.capital-sub{
+    font-family: $paragraph;
+    font-weight: 800;
+    max-width: 700px;
+    margin: 1rem auto;
+
+}
+
+
+
+/* > Mobile */
+
+
+
+
 
 html,
 body {

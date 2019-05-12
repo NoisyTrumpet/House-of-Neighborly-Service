@@ -6,7 +6,7 @@
             <img id="mission-pic" src="@asset('images/collage.svg')"/>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <h2 class="animated fadeInUp" >Mission Statement</h2>
+            <h2 class="animated fadeInUp" >BETTER TODAYS, BRIGHTER TOMORROWS.</h2>
             <p>{!! get_field('mission_statement') !!}</p>
         </div>
         <div data-aos="fade-up"
