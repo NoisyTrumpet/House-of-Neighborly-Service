@@ -1,6 +1,9 @@
 // import external dependencies
+// import 'cocoen/dist/js/cocoen.min.js'
+// import 'cocoen/dist/js/cocoen-jquery.min.js'
 // import 'jquery';
-
+// Load Events
+jQuery(document).ready(() => routes.loadEvents());
 // Import everything from autoload
 import './autoload/**/*'
 
@@ -22,8 +25,7 @@ const routes = new Router({
   aboutUs,
 });
 
-// Load Events
-jQuery(document).ready(() => routes.loadEvents());
+
 
 import { config, library, dom } from '@fortawesome/fontawesome-svg-core';
 /* For free brands */
@@ -34,7 +36,7 @@ import { far } from '@fortawesome/free-regular-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faFax } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-import { faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCircle, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { faGlobeAmericas } from '@fortawesome/free-solid-svg-icons';
 /* For free regular */
 // import { faAngleLeft } from '@fortawesome/free-regular-svg-icons';
@@ -43,12 +45,14 @@ import { faGlobeAmericas } from '@fortawesome/free-solid-svg-icons';
 // import { faAngleRight as fasFaAngleRight } from '@fortawesome/free-solid-svg-icons';
 // import { faAngleRight as falFaAngleRight } from '@fortawesome/pro-light-svg-icons';
 
-library.add(faFacebook, faBars, far, faPhone, faFax, faEnvelope, faCircle, faGlobeAmericas);
+library.add(faFacebook, faBars, far, faPhone, faFax, faEnvelope, faCircle, faGlobeAmericas, faArrowRight);
 config.searchPseudoElements=true;
 
 dom.watch();
 
 // Home Hero:
+
+// Progress Bar
 
 
 
