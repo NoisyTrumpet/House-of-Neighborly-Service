@@ -86,7 +86,7 @@
     "cocoen": "^2.0.5",
     "hamburgers": "^1.1.3",
     "hover.css": "^2.3.2",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "popper.js": "^1.14.7",
     "slideout": "^1.0.1",
     "vivus": "^0.4.4"
